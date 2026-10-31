@@ -69,48 +69,49 @@ Some experiences never get old. **Project Hestia is built around keeping the spi
 
 ---
 
+
 ## 💻 Compatibility
 
-Project Hestia aims to support a range of operating systems and devices.
+Project Hestia currently supports Windows desktop environments, with additional platform support under development.
 
-| Platform | Support | Notes |
+| Platform | Status | Notes |
 |:---|:---:|:---|
-| Windows 10 | 🟡 To be verified | Desktop environment |
-| Windows 11 | 🟡 To be verified | Desktop environment |
-| macOS | 🟡 To be verified | Release-dependent |
-| Linux | 🟡 To be verified | Distribution-dependent |
-| Android | 🟡 To be verified | Device compatibility varies |
-| iOS | 🟡 To be verified | Device compatibility varies |
+| Windows 10 | 🟢 Supported | Officially supported |
+| Windows 11 | 🟢 Supported | Officially supported |
+| macOS | 🟡 Developing | Compatibility in development |
+| Linux | 🟡 Developing | Compatibility in development |
+| Android | 🟡 Developing | Mobile compatibility in development |
+| iOS | 🟡 Developing | Mobile compatibility in development |
 
 > [!IMPORTANT]
-> Platform compatibility must be confirmed against the actual published launcher release. Not every platform may be supported.
+> Windows 10 and Windows 11 are currently the only officially supported operating systems. Other platforms are in development and may not function correctly.
 
 ---
 
 ## ⚙️ System Requirements
 
-The following specifications are preliminary recommendations for a desktop environment.
+Project Hestia requires a **64-bit Windows 10 or Windows 11 PC/Laptop**.
 
-| Component | Recommended |
-|:---|:---|
-| Operating System | Windows 10/11 or compatible platform |
-| Processor (CPU) | Intel Core i5 / AMD Ryzen 5 equivalent |
-| Memory (RAM) | 8 GB |
-| Graphics (GPU) | DirectX 11-compatible graphics |
-| Storage | 60 GB available space |
-| Internet | Broadband connection |
-| Architecture | 64-bit recommended |
+| Component | Minimum | Recommended |
+|:---|:---|:---|
+| **Operating System** | Windows 10/11 64-bit | Windows 10/11 64-bit |
+| **Graphics (GPU)** | Intel HD 4000 | NVIDIA GTX 660 / AMD Radeon HD 7870 |
+| **Processor (CPU)** | Intel Core i3 2.4 GHz | Intel Core i5 2.8 GHz |
+| **Memory (RAM)** | 4 GB RAM | 8 GB RAM |
 
 ### 💡 Recommendations
 
-- Keep your operating system and graphics drivers updated.
-- Ensure sufficient storage for the launcher and required files.
+- Use a 64-bit installation of Windows 10 or Windows 11.
+- Keep your graphics drivers updated.
+- Ensure sufficient available storage for the launcher and required files.
+- Close unnecessary background applications for better performance.
 - Use a stable internet connection where online functionality is required.
-- Check release-specific documentation for additional dependencies.
-- Review known issues before launching.
 
 > [!TIP]
-> These are preliminary specifications, not verified minimum requirements. Actual requirements may vary by release.
+> For the best experience, we recommend meeting or exceeding the recommended system specifications.
+
+> [!WARNING]
+> Project Hestia currently targets Windows 10 and Windows 11. Other operating systems are still in development.
 
 ---
 
